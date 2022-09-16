@@ -6,6 +6,7 @@ import Login from "./screens/Login";
 import SignUp from "./screens/SignUp";
 import ChatList from './screens/ChatList';
 import SearchList from './screens/SearchList';
+import ChatScreen from './screens/ChatScreen';
 
 const Stack = createStackNavigator();
 
@@ -18,9 +19,16 @@ const Navigation = () => {
         screenOptions={{headerShown:false}}>
 
       <Stack.Screen
+        name="ChatScreen"
+        component={ChatScreen}
+      />
+
+      
+<Stack.Screen
         name="Login"
         component={Login}
       />
+      
       
       <Stack.Screen
         name="SearchList"

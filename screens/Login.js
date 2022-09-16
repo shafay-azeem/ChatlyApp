@@ -24,7 +24,7 @@ import {
 const Login =()=>{
     const navigation = useNavigation(); 
     const [passwordVisible, setPasswordVisible] = useState(true)
-    const [email, setEmail] = useState("fi@gmail.com");
+    const [email, setEmail] = useState("skhan@gmail.com");
   const [password, setPassword] = useState("123456");
   const [loginresponse, setloginresponse] = useState();
   const [loading, setLoading] = useState(false);
