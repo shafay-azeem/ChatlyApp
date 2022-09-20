@@ -80,7 +80,7 @@ const ChatList = ({route}) => {
     fetch('https://chatlay-mern-app.herokuapp.com/api/chat/', config)
       .then(response => response.json())
       .then(responseJson => {
-        let counter = responseJson[0].users.length;
+       
 
         setFetchChat([])
       
